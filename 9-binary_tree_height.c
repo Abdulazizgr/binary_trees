@@ -25,7 +25,14 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (max(left_height, right_height));
 }
 
+/**
+ * max - Used to check for the maximum value
+ * @a: First value
+ * @b: Second value
+ * Return: the highest value
+ */
+
 size_t max(size_t a, size_t b)
 {
-	return (a > b) ? a : b;
+	return ((a > b) ? a : b);
 }
